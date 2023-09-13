@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --color-primary:hwb(46 35% 1%);
+    --color-secondary: #F69D9F;
+    --color-neutral:#FFE8D6;
+    --color-white:#ffffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-neutral);
+}
+
+.nav-content ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-content ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    display: flex;
+    padding: 20px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    padding-left: 10px;
+}
+
+.nav-content{
+    display: flex;
+
+}
+
+.nav-content ul li{
+   text-decoration: none;
+   display: flex;
+
+}
+
+.nav-content ul{
+    display: flex;
+    padding: 10px;
+}
+
+.content-header{
+    background-color: var(--color-primary);
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px 12px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 110px ; */
+}
+
+.content-intro{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 1000px;
+    height: 130px;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+    justify-content: center;
+    margin: 12px 12px;
+}
+ 
+/*.btn-pnk{ 
+    padding: 9px 29px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--color-secondary);
+    color: white;
+    font-size: 16px;
+    line-height: 24px; 
+} */
+
+.card{
+    /* margin: 137px 40px 0px 0px; */
+    height: 260px;
+    width: 200px;
+    background-color: var(--color-neutral);
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    flex-direction: column;
+    border-color: black;
+    border-radius: 10px;   
+}
+
+.holder-card{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.content-footer{
+    margin: 40px;
+    background-color: #F69D9F;
+    padding: 0px 200px;
+    border-radius: 5px;
+}
+
+.card p{
+    margin: 120px;
+}
